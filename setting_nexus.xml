@@ -1,0 +1,11 @@
+<settings>
+ <mirrors>
+    <mirror>
+      <id>Nexus test-proxy repo</id>
+      <name>Internal Archiva Mirror of Central</name>
+      <url>http://nexus/repository/test-proxy/</url>
+      <mirrorOf>central</mirrorOf>
+    </mirror>
+  </mirrors>
+</settings>
+
