@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
     end
 
     jenkins_config.vm.provision "shell", path: "provision_jenkins.sh"
-
+    jenkins_config.vm.provision "file", source: "setting_nexus.xml", destination: "/opt/setting_nexus.xml"
   end
 
 
